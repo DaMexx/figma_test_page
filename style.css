@@ -267,6 +267,7 @@ a {
 .work__image {
     padding-top: 57px;
     position: relative;
+    padding-bottom: 100px;
 }
 
 .work__image--first {
