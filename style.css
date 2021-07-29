@@ -153,8 +153,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
-    margin-left: 87px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .line-content__main--img {
@@ -163,7 +163,7 @@ a {
     height: 50px;
 }
 
-.line-content__main:last-child {
+.line-content__main :last-child {
     margin-right: 0;
 }
 
@@ -181,12 +181,13 @@ a {
 
 .about__menu {}
 
-.about__menu--text {
+.about__main--head {
+    padding-top: 102px;
+    padding-bottom: 50px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
-    color: #727272;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
 }
 
 .about__menu--pro {
@@ -200,6 +201,24 @@ a {
 .about__menu--img {
     width: 555px;
     height: 450px;
+    padding-left: 150px;
+}
+
+.about__menu--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 19.88px;
+}
+
+.about__main--group {
+    padding-top: 29.76px;
+}
+
+.about__menu :nth-child(2) {
+    padding-top: 0;
 }
 
 .about__progressbar {
