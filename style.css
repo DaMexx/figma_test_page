@@ -30,8 +30,6 @@ a {
 
 /* //////HEADER///// */
 
-.header {}
-
 .header-main {
     display: flex;
     align-items: center;
@@ -145,8 +143,6 @@ a {
 
 /* line */
 
-.line-content {}
-
 .line-content__main {
     display: flex;
     align-items: center;
@@ -168,16 +164,12 @@ a {
 
 /* about */
 
-.about {}
-
 .about__main {
     display: flex;
     justify-content: center;
     padding-top: 102px;
     padding-bottom: 101px;
 }
-
-.about__menu {}
 
 .about__main--head {
     padding-top: 102px;
@@ -232,8 +224,6 @@ a {
 
 
 /* work */
-
-.work {}
 
 .work__content {
     padding-top: 100px;
@@ -415,6 +405,9 @@ a {
     border: 0;
     background: #FFFFFF;
 }
+
+
+/* footer */
 
 .footer {
     padding: 50px 0 50px;
