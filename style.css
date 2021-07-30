@@ -416,7 +416,7 @@ a {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    max-width: 1050px;
+    max-width: 1150px;
 }
 
 .footer__info--name {
