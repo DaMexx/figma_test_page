@@ -36,13 +36,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1050px;
+    max-width: 1150px;
     margin: 0 auto;
-    text-transform: uppercase;
-    padding-top: 57px;
-    padding-bottom: 50px;
-    padding-left: 16px;
-    padding-right: 29px;
+    padding-top: 63px;
+    padding-bottom: 57px;
 }
 
 .header-main__menu {
@@ -50,6 +47,7 @@ a {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .header-main__menu--content {
@@ -67,21 +65,20 @@ a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 111px;
+    padding-top: 81px;
     padding-left: 87px;
-    padding-bottom: 146px;
+    padding-bottom: 127px;
 }
 
 .design-content__img {
     width: 357px;
     height: 223.7px;
-    margin-top: 42px;
-    margin-bottom: 42px;
+    margin-top: 31px;
 }
 
 .design-content__box {
     margin-left: 130px;
-    max-width: 1050px;
+    max-width: 1150px;
     padding-bottom: 21px;
 }
 
@@ -93,7 +90,7 @@ a {
 }
 
 .design-content__text {
-    margin-top: 50px;
+    margin-top: 33px;
     max-width: 540px;
     font-size: 16px;
     line-height: 26px;
@@ -122,7 +119,7 @@ a {
     align-items: center;
     margin: 0 auto;
     padding-top: 119px;
-    padding-bottom: 100px;
+    padding-bottom: 77px;
 }
 
 .about-content__head {
@@ -183,7 +180,7 @@ a {
 
 .about__main--head {
     padding-top: 102px;
-    padding-bottom: 50px;
+    padding-bottom: 33px;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -214,7 +211,7 @@ a {
 }
 
 .about__main--group {
-    padding-top: 29.76px;
+    padding-top: 20px;
 }
 
 .about__menu :nth-child(2) {
@@ -265,12 +262,13 @@ a {
 }
 
 .work__image {
-    padding-top: 57px;
+    padding-top: 40px;
     position: relative;
     padding-bottom: 100px;
 }
 
 .work__image--first {
+    display: block;
     width: 1110px;
     height: 600px;
 }
@@ -278,14 +276,79 @@ a {
 
 /* тут украдено */
 
-.work__image .work__image--second {
+.work__image--second {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    width: 100px;
+    opacity: 0.5;
+    height: 100px;
+}
+
+.work__image--second:hover {
+    opacity: 1;
+}
+
+
+/* тут украдено */
+
+
+/* project */
+
+.project {
+    position: relative;
+    width: 480px;
+    height: 480px;
+}
+
+
+/* /////один элемент */
+
+.project__img {
+    position: relative;
+    width: 100%;
+    opacity: 1;
+}
+
+.project__check {
     position: absolute;
     top: 50%;
     left: 50%;
     margin: -50px 0 0 -50px;
     width: 100px;
+    opacity: 0;
     height: 100px;
 }
 
+.project:hover .project__check {
+    opacity: 1;
+}
 
-/* тут украдено */
+.project:hover .project__overlay {
+    opacity: 0.5;
+}
+
+.project__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #34547A;
+}
+
+
+/* /////один элемент */
+
+.project-content {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    max-height: 960px;
+}
