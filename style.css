@@ -345,6 +345,7 @@ a {
 /* /////один элемент */
 
 .project-content {
+    margin: 0 auto;
     padding-top: 28px;
     padding-bottom: 28px;
     display: flex;
