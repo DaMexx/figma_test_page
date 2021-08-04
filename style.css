@@ -34,7 +34,7 @@ a {
 }
 
 
-/* //////HEADER///// */
+
 
 .header-main {
     display: flex;
@@ -65,7 +65,7 @@ a {
 }
 
 
-/* desing */
+
 
 .design-content {
     display: flex;
@@ -118,7 +118,6 @@ a {
 }
 
 
-/* about */
 
 .about-content {
     display: flex;
@@ -168,8 +167,6 @@ a {
     margin-right: 0;
 }
 
-
-/* about */
 
 .about__main {
     display: flex;
@@ -232,7 +229,7 @@ a {
 }
 
 
-/* work */
+
 
 .work__content {
     padding-top: 100px;
@@ -276,7 +273,7 @@ a {
 }
 
 
-/* тут украдено */
+
 
 .work__image--second {
     position: absolute;
@@ -293,10 +290,8 @@ a {
 }
 
 
-/* тут украдено */
 
 
-/* project */
 
 .project {
     position: relative;
@@ -344,7 +339,7 @@ a {
 }
 
 
-/* /////один элемент */
+
 
 .project-content {
     padding-top: 28px;
@@ -421,8 +416,6 @@ a {
     border: none;
 }
 
-
-/* footer */
 
 .footer {
     padding: 50px 0 50px;
