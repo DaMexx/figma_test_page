@@ -567,7 +567,7 @@ a {
     }
     .form__info {
         flex-direction: column;
-        padding: 30px;
+        
     }
     .form__info :last-child {
         margin-left: 0 !important;
